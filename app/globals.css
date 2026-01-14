@@ -16,3 +16,27 @@
   --swiper-pagination-bullet-opacity: 1;
   --swiper-pagination-bullet-horizontal-gap: 6px;
 }
+
+.recipe-showcase-bg-1 {
+  background-image: radial-gradient(
+      circle at 57.71% 48.15%,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("/recipe-showcase/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipe-showcase-bg-2 {
+  background-image: radial-gradient(
+      circle at 57.71% 48.15%,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("/recipe-showcase/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
