@@ -1,4 +1,5 @@
 import HomeHero from "@/components/sections/home-hero";
+import ProductShowcase from "@/components/sections/product-showcase";
 import RecipeShowcase from "@/components/sections/recipe-showcase";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <main>
       <HomeHero />
       <RecipeShowcase />
+      <ProductShowcase />
     </main>
   );
 };
