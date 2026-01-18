@@ -1,4 +1,6 @@
 import Header from "@/components/sections/header";
+import { Facebook, Instagram, MapPin, Phone, Youtube } from "lucide-react";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -34,6 +36,32 @@ const About = () => {
               Azərbaycan məhsulunun beynəlxalq arenada rəqabət gücünü nümayiş
               etdirməkdədir.
             </p>
+          </div>
+          <address className="flex flex-col gap-y-4">
+            <div className="flex items-center gap-x-1">
+              <MapPin />
+              <span className="font-medium">
+                Heydər Əliyev pr. 92a, Bakı, Azərbaycan, AZ1029
+              </span>
+            </div>
+            <div className="flex items-center gap-x-1">
+              <Phone />
+              <span className="font-medium">Qaynar Xətt: 120</span>
+            </div>
+          </address>
+          <div className="flex flex-col gap-y-4">
+            <p className="font-medium">Sosial şəbəkə hesablarımız</p>
+            <div className="flex items-center gap-x-6">
+              <Link href="https://www.instagram.com/bizim_sufre/">
+                <Instagram />
+              </Link>
+              <Link href="https://www.facebook.com/BizimSufre/">
+                <Facebook />
+              </Link>
+              <Link href="https://www.youtube.com/channel/UChqMKPO_TkF74I7Rf0rZivw">
+                <Youtube />
+              </Link>
+            </div>
           </div>
         </section>
       </main>
