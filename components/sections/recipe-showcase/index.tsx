@@ -9,7 +9,7 @@ const RecipeShowcase = () => {
         title="recipes"
         text="Bolognese Spaghetti"
         label="details"
-        href="https://www.bizimsufre.az/en/reseptler/bolonez-souslu-spagetti-11"
+        href="/receipts/1"
       />
       <RecipeShowcaseCard
         className="recipe-showcase-bg-2"
@@ -17,7 +17,7 @@ const RecipeShowcase = () => {
         title="recipes"
         text="Pasta Salad with “Bizim Sufre” Mayonnaise"
         label="details"
-        href="https://www.bizimsufre.az/en/reseptler/bizim-sufre-mayonezi-ile-makaron-salati-25"
+        href="/receipts/2"
       />
     </section>
   );
